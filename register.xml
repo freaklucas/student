@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+    <register>
+        <email>
+            ex: bruno@bruno.com
+        </email>
+        <password>
+          ex: 1234
+        </password>
+    </register>
+</data>
