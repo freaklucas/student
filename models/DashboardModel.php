@@ -4,6 +4,7 @@
     class DashboardModel extends PersistModelAbstract {
         function __construct(){
             parent::__construct();
+            $this->createTable();
         }
         public function getFirstDashboard(){
             $st_sql = "SELECT * FROM dashboard";
