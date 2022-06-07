@@ -2,6 +2,7 @@
     require_once("lib/PersistModelAbstract.php");
 
     class DashboardModel extends PersistModelAbstract {
+
         function __construct(){
             parent::__construct();
             $this->createTable();
