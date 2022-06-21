@@ -7,7 +7,7 @@ abstract class PersistModelAbstract {
         $host = "localhost";
         $db = "gerencia_aluno";
         $login = "root";
-        $pass = "abacaxi00";
+        $pass = "abacaxi";
         $st_dsn = "mysql:host=$host;dbname=$db";
         $this->o_db = new PDO($st_dsn, $login, $pass);
     }
